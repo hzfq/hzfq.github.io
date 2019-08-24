@@ -11,16 +11,17 @@ body {
 	position: absolute;
 	top: 16px;
 	left: 16px;
-	height: 64px;
+	height: 72px;
+	width: 300px;
 }
 
 .brand img {
-	width: 64px;
+	width: 72px;
 	vertical-align: middle;
 }
 
 .brand span {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .blog {
