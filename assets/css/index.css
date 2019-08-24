@@ -7,12 +7,20 @@ body {
 	background-color: #2F3F4F;
 }
 
+.brand {
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	height: 64px;
+}
+
 .brand img {
 	width: 64px;
-	margin: 16px;
-	position: absolute;
-	top: 0;
-	left: 0;
+	vertical-align: middle;
+}
+
+.brand span {
+	font-size: 24px;
 }
 
 .blog {
