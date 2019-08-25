@@ -4,7 +4,13 @@
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	background-color: #2F3F4F;
+}
+
+a {
+	text-decoration: none;
 }
 
 .brand {
@@ -20,24 +26,32 @@ body {
 	vertical-align: middle;
 }
 
-.brand span {
-	font-size: 20px;
-}
-
 .blog {
-	font-size: 24px;
-	width: 160px;
-	position: absolute;
-	top: 12em;
+	width: 56px;
+
+	position: relative;
 	left: 50%;
-	margin-left: -80px;
-
-}
-
-.blog a {
-	text-decoration: none;
+	margin-left: -28px;
+	margin-top: 16em;
 }
 
 .blog i {
+	font-size: 64px;
+}
+
+.footer {
+	height: 10em;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #1E2E3E;
+}
+
+.footer-content {
+	margin-left: 10em;
+}
+
+.footer-content i {
 	font-size: 32px;
 }
