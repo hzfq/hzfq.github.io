@@ -14,29 +14,33 @@ a {
 }
 
 .brand {
-	position: absolute;
-	top: 16px;
-	left: 16px;
-	height: 48px;
-	width: 300px;
+	height: 6em;
+	width: 100%;
+	background-color: #1E2E3E;
+}
+
+.brand a {
+	height: 6em;
+	line-height: 6em;
+	margin-left: 2.8em;
 }
 
 .brand img {
-	width: 48px;
+	width: 2.8em;
 	vertical-align: middle;
 }
 
 .blog {
-	width: 56px;
+	width: 3.5em;
 
 	position: relative;
 	left: 50%;
-	margin-left: -28px;
+	margin-left: -1.75em;
 	margin-top: 16em;
 }
 
 .blog i {
-	font-size: 64px;
+	font-size: 4em;
 }
 
 .footer {
@@ -53,5 +57,5 @@ a {
 }
 
 .footer-content i {
-	font-size: 32px;
+	font-size: 2em;
 }
